@@ -41,7 +41,7 @@ const CreatePlaylistModal = ({ closeModal }) => {
         <div className="text-white mb-5 font-bold text-2xl">Create Playlist</div>
         
         {/* Form fields for playlist name and thumbnail */}
-        <div className="space-y-4 flex flex-col justify-center items-center">
+        <div className="space-y-4 flex flex-col justify-center items-center text-white">
           {/* Playlist name input field */}
           <TextInput
             label="Name"
