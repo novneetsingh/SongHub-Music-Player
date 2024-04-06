@@ -40,7 +40,7 @@ const UploadSong = () => {
         </div>
         <div className="w-2/3 flex space-x-3">
           {/* Input fields for name and thumbnail */}
-          <div className="w-1/2">
+          <div className="w-1/2 text-white">
             <TextInput
               label="Name"
               labelClassName={"text-white"}
@@ -49,7 +49,7 @@ const UploadSong = () => {
               setValue={setName}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 text-white">
             <TextInput
               label="Thumbnail"
               labelClassName={"text-white"}
